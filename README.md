@@ -7,4 +7,4 @@
 ## 🚀 Запуск проекта
 1. Склонируйте репозиторий:  
    ```bash
-   git clone https://github.com/ваш-профиль/имя-репозитория.git
+  https://github.com/dnm-emu/RPGHomework/tree/main/RPG.git
