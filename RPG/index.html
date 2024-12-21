@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Battle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>RPG Battle Game</h1>
+    <div id="game">
+        <div class="player" id="player1">
+            <h2>Knight</h2>
+            <p>Life: <span id="player1-life">100</span></p>
+            <p>Weapon: 
+                <select id="player1-weapon">
+                    <option value="sword">Sword</option>
+                    <option value="spear">Spear</option>
+                    <option value="dagger">Dagger</option>
+                </select>
+            </p>
+        </div>
+        <div class="player" id="player2">
+            <h2>Barbarian</h2>
+            <p>Life: <span id="player2-life">120</span></p>
+            <p>Weapon: 
+                <select id="player2-weapon">
+                    <option value="axe">Axe</option>
+                    <option value="hammer">Hammer</option>
+                    <option value="club">Club</option>
+                </select>
+            </p>
+        </div>
+        <div class="button-play">
+            <button id="start-battle">Start Battle</button>
+        </div>
+        <div id="battle-log"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
