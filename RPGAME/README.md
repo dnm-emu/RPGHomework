@@ -1,6 +1,6 @@
 # RPG Game
 
-A simple RPG game built with JavaScript and Jest.
+Домашнее задание RPG игра
 
 ## Installation
 
@@ -14,8 +14,3 @@ npm install
 npm test
 ```
 
-## Features
-
-- Different weapon types
-- Multiple player classes
-- Battle simulation
